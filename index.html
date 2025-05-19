@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pempek Mama Ratna | Pempek Murah di Jakarta</title>
+    <meta name="description" content="Pempek Mama Ratna asli Bangka rekomendasi pempek di Jakarta murah. Hanya Rp 4.000/pcs! Pesan online, cepat & aman.">
+    <meta name="keywords" content="pempek telur, pempek lenjer, pempek palembang, jual pempek, pempek murah, makanan khas, pempek di jakarta">
+    <link rel="canonical" href="https://pun10-ivn.github.io/pempek-mama-ratna/">
+    <meta property="og:title" content="Pempek Mama Ratna | Pempek Murah di Jakarta" />
+    <meta property="og:description" content="Pempek Mama Ratna asli Bangka rekomendasi pempek di Jakarta murah. Hanya Rp 4.000/pcs! Pesan online, cepat & aman." />
+    <meta property="og:image" content="https://plcl.me/images/fiLEX.png" />
+    <meta property="og:url" content="https://pun10-ivn.github.io/pempek-mama-ratna/" />
+    <meta property="og:type" content="website" />
+
+    <!-- Tambahkan Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+DK+Loopet:wght@100..400&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+            color: #333;
+        }
+
+        header {
+            background-color: #cb0202;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            font-family: 'Playwrite DK Loopet', cursive;
+        }
+
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 10px;
+            padding: 20px;
+        }
+
+        .grid-item img {
+            width: 100%;
+            border-radius: 8px;
+        }
+
+        .order-form {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            margin: 20px;
+        }
+
+        .order-form h2 {
+            margin-bottom: 15px;
+        }
+
+        .order-form input, .order-form select, .order-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        .order-form button {
+            background-color: #cb0202;
+            color: white;
+            border: none;
+            padding: 10px;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        .order-form button:hover {
+            background-color: #e5533d;
+        }
+
+        .item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+
+        .item select, .item input {
+            margin-right: 10px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background-color: #cb0202;
+            color: white;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        .remove-item {
+            background-color: #ff3333;
+            color: white;
+            border: none;
+            padding: 8px 12px;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        .remove-item:hover {
+            background-color: #cc0000;
+        }
+
+        #addItem {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 10px;
+            border-radius: 4px;
+            cursor: pointer;
+            margin-bottom: 15px;
+        }
+
+        #addItem:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Pempek Mama Ratna</h1>
+    </header>
+    
+    <main>
+        <section class="grid-container">
+            <div class="grid-item"><img src="https://plcl.me/images/fiLEX.png" alt="Campur"></div>
+            <div class="grid-item"><img src="https://plcl.me/images/kKXW7.png" alt="Pempek Telur"></div>
+            <div class="grid-item"><img src="https://plcl.me/images/YUCpH.png" alt="Pempek Lenjer"></div>
+            <div class="grid-item"><img src="https://plcl.me/images/ZT2TY.png" alt="Pempek Adaan"></div>
+            <div class="grid-item"><img src="https://plcl.me/images/rTxRx.png" alt="Pempek Kulit"></div>
+        </section>
+
+        <section class="order-form">
+            <h2>Pemesanan</h2>
+            <form id="orderForm">
+                <input type="text" id="name" placeholder="Nama" required>
+                <input type="tel" id="method" placeholder="Pickup/Gosend/Grabsend/Paxel" required>
+                <div id="menuItems">
+                    <div class="item">
+                        <select class="menu" required>
+                            <option value="">Pilih Menu</option>
+                            <option value="Pempek Mama Ratna">Pempek Mama Ratna</option>
+                            <option value="Pempek Telur">Pempek Telur</option>
+                            <option value="Pempek Lenjer">Pempek Lenjer</option>
+                            <option value="Pempek Adaan">Pempek Adaan</option>
+                            <option value="Pempek Kulit">Pempek Kulit</option>
+                        </select>
+                        <input type="number" class="quantity" placeholder="Jumlah" min="1" value="1" required>
+                        <button type="button" class="remove-item">Hapus</button>
+                    </div>
+                </div>
+                <button type="button" id="addItem">Tambah Menu</button>
+                <textarea id="notes" placeholder="Catatan Tambahan"></textarea>
+                <button type="submit">Pesan Sekarang</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Pempek Mama Ratna</p>
+    </footer>
+    
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            document.getElementById('addItem').addEventListener('click', function() {
+                const menuItems = document.getElementById('menuItems');
+                const newItem = document.createElement('div');
+                newItem.className = 'item';
+                newItem.innerHTML = `
+                    <select class="menu" required>
+                        <option value="">Pilih Menu</option>
+                        <option value="Pempek Mama Ratna">Pempek Mama Ratna</option>
+                        <option value="Pempek Telur">Pempek Telur</option>
+                        <option value="Pempek Lenjer">Pempek Lenjer</option>
+                        <option value="Pempek Adaan">Pempek Adaan</option>
+                        <option value="Pempek Kulit">Pempek Kulit</option>
+                    </select>
+                    <input type="number" class="quantity" placeholder="Jumlah" min="1" value="1" required>
+                    <button type="button" class="remove-item">Hapus</button>
+                `;
+                menuItems.appendChild(newItem);
+                newItem.querySelector('.remove-item').addEventListener('click', function() {
+                    menuItems.removeChild(newItem);
+                });
+            });
+
+            document.getElementById('orderForm').addEventListener('submit', function(e) {
+                e.preventDefault();
+                const name = document.getElementById('name').value;
+                const method = document.getElementById('method').value;
+                const notes = document.getElementById('notes').value;
+                const items = document.querySelectorAll('.item');
+                let orderDetails = '';
+
+                items.forEach(item => {
+                    const menu = item.querySelector('.menu').value;
+                    const quantity = item.querySelector('.quantity').value;
+                    if (menu && quantity) {
+                        orderDetails += `${menu} (Jumlah: ${quantity})\n`;
+                    }
+                });
+
+                const message = `Nama: ${name}\nMetode Pengiriman: ${method}\nPesanan:\n${orderDetails}\nCatatan: ${notes}`;
+                const encodedMessage = encodeURIComponent(message);
+                const whatsappNumber = '6287726465793';
+                const whatsappLink = `https://wa.me/${whatsappNumber}?text=${encodedMessage}`;
+                window.open(whatsappLink, '_blank');
+            });
+        });
+    </script>
+</body>
+</html>
